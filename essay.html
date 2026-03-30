@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的随笔集</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--bg-dark:#121212;--bg-card:#1e1e1e;--text-primary:#e0e0e0;--text-secondary:#888;--accent:#ffb6c1;--border:#333}
+        body{font-family:"Segoe UI",sans-serif;background:var(--bg-dark);color:var(--text-primary);line-height:1.8;padding:2rem}
+        .container{max-width:800px;margin:0 auto}
+        a{color:var(--accent);text-decoration:none;transition:color 0.3s}
+        a:hover{color:#fff}
+        .back{margin-bottom:2rem;display:inline-block;font-size:1rem}
+        h1{font-size:2.2rem;margin-bottom:2rem;text-align:center;color:var(--accent);line-height:1.4}
+        .essay-list{display:grid;gap:1.5rem;margin-top:1rem}
+        .essay-item{background:var(--bg-card);padding:1.8rem;border-radius:12px;border:1px solid var(--border);transition:transform 0.3s}
+        .essay-item:hover{transform:translateY(-5px)}
+        .essay-item h3{font-size:1.4rem;margin-bottom:0.8rem;color:var(--text-primary)}
+        .essay-item .intro{color:var(--text-secondary);margin-bottom:1rem;font-size:0.95rem}
+        .essay-item .tag{display:inline-block;padding:0.3rem 0.8rem;background:#2a2a2a;border-radius:4px;font-size:0.8rem;margin-bottom:1rem}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← 返回主页</a>
+        <h1>我的随笔集</h1>
+        <div class="essay-list">
+            <!-- 随笔1：已关联你的《于情不晚》，可直接用 -->
+            <div class="essay-item">
+                <div class="tag">狐说捌道系列</div>
+                <h3><a href="essay-yuqingbuwan.html">狐说捌道-其一《于情不晚》</a></h3>
+                <div class="intro">被狐狸精勾引了怎么办？如果一见钟情的不是在协会资料上见到池黯的许凌衔，而是请君入瓮时第一次见到许凌衔的池黯……</div>
+            </div>
+
+            <!-- 随笔2：新增随笔时，复制这段修改即可 -->
+            <div class="essay-item">
+                <div class="tag">待补充</div>
+                <h3><a href="essay-xxx.html">随笔标题二（替换成你的标题）</a></h3>
+                <div class="intro">这里写随笔的简短介绍（替换成你的简介）</div>
+            </div>
+
+            <!-- 随笔3：继续新增就复制上面一段，修改标题、链接、简介 -->
+        </div>
+    </div>
+</body>
+</html>
